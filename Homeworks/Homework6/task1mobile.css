@@ -1,0 +1,17 @@
+@media screen and (min-width: 100px) and (max-width: 480px){
+  header, section{
+    width: 100vw;
+    height: 20vh;
+    margin-left: 0;
+
+  }
+
+  main{
+    width: 100vw;
+    height: 40vh;
+    margin-bottom: 10px;
+  }
+  div{
+    flex-direction: column;
+  }
+}

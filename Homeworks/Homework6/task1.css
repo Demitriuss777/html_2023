@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+  height: 100vh;
+}
+header{
+  width: 100vw;
+  height: 30vh;
+  background-color: gray;
+  margin-bottom: 10px;
+}
+div{
+  display: flex;
+}
+main{
+  width: 80vw;
+  height: 70vh;
+  background-color: #b3d4fc;
+}
+section{
+  width: 20vw;
+  height: 70vh;
+  background-color:green;
+  margin-left: 10px;
+
+}
+h1{
+  text-align: center;
+
+}

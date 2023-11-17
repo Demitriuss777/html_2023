@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+  height: 100vh;
+}
+header{
+  width: 100vw;
+  height: 33vh;
+  background-color: #b3d4fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conter{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+
+
+}
+.BCDE{
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-content: stretch;
+
+
+
+
+
+}
+.B{
+  width: 80vw;
+  height: 33vh;
+  background-color: #cccccc;
+
+}
+section{
+  width: 26.667vw;
+  height: 33vh;
+  background-color:gold;
+  margin-left: 1px;
+flex-direction: column;
+
+}
+.F{
+  width: 20vw;
+  height: 66vh;
+  background-color: green;
+  display: flex;
+  position:absolute;
+  right: 0;
+  margin: 0;
+
+
+}
+

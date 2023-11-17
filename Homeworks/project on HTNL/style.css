@@ -1,0 +1,610 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Rubik:wght@300&display=swap');
+
+/*
+стилізація 1 сторінки
+*/
+body{
+  margin: 0;
+  background-color:#FFF ;
+
+
+}
+.one{
+
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+header{
+  display: flex;
+
+  height: 90px;
+  background: #FFF;
+
+}
+/* логотіп Укрпошти*/
+ .logo{
+   display: flex;
+   padding: 25px 1119px 15px 135px;
+   align-items: center;
+ }
+ /*  навігаціонна панель*/
+
+nav a{
+  color : #99A2AA;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; /* 375% */;
+  text-decoration: none;
+
+}
+nav{
+  display: inline-flex;
+  height: 60px;
+  padding: 0 671px 0 135px;
+  align-items: flex-start;
+  gap: 29.626px;
+  flex-shrink: 0;
+  background: #FFF;
+}
+/* другий блок передпоатта*/
+.yellowtwo{
+  height: 450px;
+  background-color: #FEC524;
+  position: relative;
+  margin-bottom: 0;
+}
+.infoone{
+  height: 230px;
+  flex-direction: column;
+  justify-content: center;
+  display: inline-flex;
+  padding: 0 735px 62px 135px;
+  align-items: flex-start;
+}
+.infoone1{
+  display: flex;
+  width: 282.97px;
+  height: 104px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: 'Rubik', sans-serif;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 136.364% */
+
+}
+.infoone2{
+  display: flex;
+  width: 312.725px;
+  height: 30px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #0E2F4B;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  margin-top: 34px;
+}
+/* інпути для другого блоку*/
+.conterinput{
+  padding: 0 230px 0 135px;
+
+}
+ .namber_post{
+   display: inline-flex;
+   height: 72px;
+   width: 260px;
+   align-items: center;
+   flex-shrink: 0;
+   border-radius: 10px;
+   background: #FFF;
+   box-shadow: 0 3px 35px 0 rgba(95, 98, 102, 0.17);
+   padding: 0 230px 0 30px;
+   color: #757575;
+
+   font-family: 'Rubik', sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 0.5px;
+ }
+
+ /* стилізація кнопок*/
+.buttons{
+  display: flex;
+
+  padding: 55px 0 0 0;
+}
+
+.butt1, .butt2, .butt3, .butt4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width:250px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0 3px 35px 0 rgba(95, 98, 102, 0.17);
+  color: #99A2AA;
+  gap: 23.94px;
+
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 125% */
+
+
+}
+.butt1{
+  padding: 25.84px 54.305px 24.16px 54.67px;
+
+}
+.butt2{
+  padding: 25.84px 64.988px 24.16px 65.3px;
+  margin-left: 30px;
+}
+.butt3{
+  padding: 25.84px 49.048px 24.16px 49.41px;
+  margin-left: 30px;
+
+
+}
+.butt4{
+  padding: 25.84px 47.795px 24.16px 48.19px;
+  margin-left: 30px;
+}
+/* стилізація блока сервіс*/
+.main_services{
+  height: 800px;
+  background-color: #F8F8F8;
+  display: flex;
+  position: relative;
+}
+
+.oneserv{
+  width: 400px;
+  height: 630px;
+  margin-left:120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0;
+ /* background-color: yellow;*/
+
+}
+.oneservh1{
+  color: #0E2F4B;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 125% */
+  width: 100px;
+  margin-left: 15px;
+
+}
+.oneserv p{
+  color: #0E2F4B;
+  width: 324px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  margin-left: 15px;
+  margin-bottom: 0;
+}
+
+.twoserv{
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0;
+  margin-left: 15px;
+ /* background-color: black;*/
+
+}
+.twoserv1, .twoserv2, .twoservt{
+  display: flex;
+  width: 320px;
+  height: 180px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+/*  background-color: #b3d4fc;*/
+
+}
+/*
+
+.twoserv1{
+  background-color: #b3d4fc;
+
+}
+.twoserv2{
+ background-color: #cccccc;
+}
+.twoservt{
+  background-color: red;
+}
+*/
+
+.twoserv1 p {
+  color: #0E2F4B;
+  width: 123px;
+  margin-bottom: 13px;
+  margin-top: 0;
+  margin-left: 20px;
+
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
+#servahref{
+  color: #0E2F4B;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+  display: flex;
+  width: 88.005px;
+  height: 17px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top:0 ;
+}
+.twoserv2 p{
+  color: #0E2F4B;
+
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  display: flex;
+  width: 262.392px;
+  height: 28px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-left: 20px;
+}
+.twoservt p
+ {display: flex;
+  width: 119.354px;
+  height: 28px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #0E2F4B;
+  margin-left: 20px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
+.threserv {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0;
+  margin-left: 15px;
+
+}
+.threserv1, .threserv2, .threserv3{
+  display: flex;
+  width: 320px;
+  height: 180px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+
+
+}
+.threserv p {
+  display: flex;
+  width: 119.354px;
+  height: 28px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #0E2F4B;
+  margin-left: 20px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
+.threserv2 p{
+  width: 180px;
+}
+ /*
+ стилізація започаткуй бізнес синій блок
+
+ */
+.business{
+  display: flex;
+  height: 660px;
+  justify-content: start;
+  align-items: start;
+  background: #042C4B;
+}
+.busicont{
+  display: flex;
+flex-direction: column;
+margin-left: 135px;
+  margin-top: 120px;
+  height: 390px;
+
+ /* background-color: #b3d4fc;*/
+}
+.busititle{
+  display: flex;
+  width: 592.315px;
+  height: 130px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #F8F8F8;
+  font-family: 'Rubik', sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 125% */
+ /* background-color: #99A2AA;*/
+  margin-top: 10px;
+  margin-left: 15px;
+
+}
+.busitext{
+  color: #99A2AA;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  display: flex;
+  width: 320px;
+  height: 50px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 30px;
+  margin-left: 15px;
+ /* background-color: green;*/
+}
+.busibutton button {
+  display: flex;
+  width: 305px;
+  height: 80px;
+  padding: 28px 0;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #FDC13D;
+  color: #0E2F4B;
+  margin-top: 44px;
+  margin-left: 30px;
+
+}
+.busibutton button{
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; /* 400% */
+}
+/* стилізація фінансовий сервіс*/
+.financial_services{
+  display: flex;
+  height: 660px;
+  justify-content: start;
+  align-items: start;
+  background: #F8F8F8;
+
+}
+.finconter {
+  height: 780px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+  margin-top: 100px;
+/*  background-color: #b3d4fc;*/
+}
+.fintitle{
+  height: 220px;
+  background-color: #FDC13D;
+  margin-left: 15px;
+}
+.fintitle h1 {
+  color: #0E2F4B;
+
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  display: flex;
+  width: 960px;
+  height: 60px;
+  margin-left: 75px;
+  margin-top: 52px;
+  margin-bottom: 0;
+  padding: 0;
+
+}
+.fintitle p{
+  color: #0E2F4B;
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  margin-left: 75px;
+  padding: 0;
+  margin-top: 12px;
+}
+.fintext{
+  display: flex;
+  width: 460.569px;
+  height: 57px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #0E2F4B;
+
+  font-family: 'Rubik', sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 125% */
+/*  background-color: #0755e6;*/
+  margin-left: 15px;
+  margin-top: 121px;
+}
+.finblock{
+  display: flex;
+}
+.finblone, .finbltwo, .finblthree{
+  display: flex;
+  flex-direction: column;
+
+  width: 270px;
+  height: 270px;
+  flex-shrink: 0;
+/*  background-color: green;*/
+  color: #0E2F4B;
+}
+.finblone p, .finbltwo p, .finblthree p {
+  width: 140px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px;
+  margin-top: 32px;
+  margin-bottom: 10px;
+}
+.finbltwo, .finblthree{
+  margin-left: 30px;
+}
+
+/*стилізація останній блок*/
+.last{
+  display: flex;
+  height: 635px;
+ /* padding: 134.5px 120px 135.5px 120px;*/
+  /*justify-content: center;
+  align-items: center;*/
+  flex-shrink: 0;
+  background: #0E2F4B;
+}
+.lastconter{
+  height: 365px;
+  display: flex;
+  /*background-color: green;*/
+  margin-left: 120px;
+  margin-top: 134.5px;
+  flex-direction: column;
+}
+.lasttitle {
+  display: flex;
+  width: 352.037px;
+  height: 57px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #F8F8F8;
+  font-family: 'Rubik', sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 125% */
+  margin-left: 15px;
+  margin-top: 31px;
+}
+.lasttext{
+  display: flex;
+  width: 1000px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #99A2AA;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  margin-left: 15px;
+}
+.lastbox{
+  display: flex;
+  margin-left: 16px;
+ margin-top: 50px;
+}
+.lastinput1{
+  display: flex;
+  width: 505.98px;
+  height: 78px;
+  padding: 0 30px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #E8EBEE;
+  background: #FFF;
+  color: #6C757D;
+
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.5px;
+}
+.lastbutton{
+  display: flex;
+  width: 248.98px;
+  height: 80px;
+  padding: 28px 86.725px 28px 87.05px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #FDC13D;
+  color: #0E2F4B;
+
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+  margin-left: 11px;
+
+}

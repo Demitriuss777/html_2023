@@ -1,0 +1,57 @@
+@media screen and (max-width: 480px){
+  header{
+    width: 100vw;
+    height: 10vh;
+    background-color: #b3d4fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .conter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+  }
+
+  .B{
+    width: 100vw;
+    height: 50vh;
+    background-color: #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .C,.D,.E{
+    width: 33vw;
+    height: 20vh;
+    background-color:gold;
+    margin-left: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+  }
+  .F{
+    width: 100vw;
+    height: 20vh;
+    background-color: green;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+
+
+
+
+  }
+
+}
+

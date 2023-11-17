@@ -1,0 +1,17 @@
+.container{
+  width: 100px;
+  height: 100px;
+  background-color: #cccccc;
+  transition: 4s;
+
+}
+.ccub {
+  display: flex;
+  justify-content: space-between;
+
+}
+.red:hover{
+  background-color: red;
+  border-radius: 50%;
+  transition: 2s;
+}

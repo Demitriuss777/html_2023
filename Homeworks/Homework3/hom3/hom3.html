@@ -1,0 +1,75 @@
+<!--
+Зробити сторінку (включно з переходами) як на відео (відео hw3). Текст lorem або довільний
+-->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>home3</title>
+  <style>
+    html{
+      scroll-behavior: smooth;
+    }
+    body{
+      margin: 0;
+    }
+    div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    #one{
+      width: 100vw;
+      height: 100vh;
+      background-color: coral;
+    }
+    #two{
+      width: 100vw;
+      height: 100vh;
+      background-color: grey;
+    }
+    #three{
+      width: 100vw;
+      height: 100vh;
+      background-color: green;
+    }
+
+  </style>
+</head>
+<body>
+<div id="one">
+  <h1>Section Title</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolor ex excepturi fuga natus nobis perferendis quaerat quos sit vero. Accusamus consectetur debitis ipsa iure rem sed sit temporibus vel?</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eligendi esse id quasi quia ratione sed ullam, vero! At cupiditate eligendi est facere, fugit necessitatibus nemo quae rerum saepe sunt?</p>
+  <a href="#two">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAACt0lEQVR4nO2dy2oUURRFlziJioIzJSrGpNs8TMwDdWIUHOpIDaTv5ziVjAWN+R4hOBD8BEfGoQZ8DK4U3gJtFW06XedUnb1gQygaUnevOpUq0l0NQgghhH/OAAnYBfaBA+BryUHZ9gIYAKetd7ZL9IE94BDI/5nqtS+BnvXOt5kTwA7wbYTih1NNx1NgynoxbaMHvB2j+OG8As5bL6otrJVzej7ivANWrBfXhiP/YALl/yzhnPUivTIFvJlg+XVel78vYoidBsqv82T4l0enP+bVzqj5qFPRr+w1WH6dZ0YHm8s73EMDAZ90x/yDZFB+ne2yD6HZNRTw3HrxHtg3FFDdIYfng6GA9+HbB74YCvgsAZiVXyc8WQJsyRIgAaHJmgAJCE3WBEhAaLImQAJCkzUBEhCarAmQgNBkTYAEhCZrAiQgNFkTIAGhyZoACQhN1gRIQGiyJkACQpM1ARIQmqwJkIDQZE2ABLSWaeAesFU+bBcpj8vaqw4a5zhw10EJyUnulE4aQ+Xzm4TNpsq/4OCIS07TyOlo08FCk9PcbkLAIwcLTU7zsAkBEa940ghXRhPngYOFJqe534SA6w4WmpxmuQkBJ3Ua4k/lbzX5KLTp8oRa6yMuOcnA4o74oiRQl38ZIy4FlzCwLD+6hIGH8qNKGAAzOGMmkIQ5nHIlgIQ5nNNlCT1aQhcl9GgZsx2S0KOlzDooL42Z6rnWrWbOQYkpavk1Vx2UmUbMAh2jTRIW6ShtkLBIx5l3UHL6S5YIgkcJSwRj3kHpYcuvWXBQ/jWCs6zyY0pYtV50ZAmr1ov1ykoD5VffVSmMJKypebt3362rfDsJ6yrfTsK6yh+PjTHKv6Hy7SRsqPyjpV+++/FfxW+3+X+43jkF3CqfRBkuvtp2s7xGTJhjwNnylvDp8nO1TQhBm/gOL0oifKKoWFcAAAAASUVORK5CYII=">
+    </a>
+</div>
+<div id="two">
+  <a href="#one">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC+klEQVR4nO2cO2sUURiGnygYtZHgBWzEqIl3jTHxgtiFiEoKETFfl06FVFqJoP4MsbBM4Z9IJViI/gQtFRQLL2WUAxMNS5Rks3vOOzPvAy8su7Mw3/fsmTnMzhwwxjSbrcBQlfTaFJIwBswA0ZGZ6jPLycQocGsVEZ1J24zk2qk2MgBMrkFEZyar75oeM9mFjOWct5TeMrEBGZYiKCM8UvRkRJVzPnx1x9k+yFgpxYjIiBWzL7MGxjLIWM64jfyf0xllWIqgjPBIWZ1TBWVElTM+fOnICEvRkxFtl3JSoPnxj6SZXqtQlhFVTtASjgo0OyylfjKi6SPliEBzo8scp2HUWUY0TcphgWZGj3KMmtMkGVF3KU2UEVXS5KRWHBJoWvQ56XakWnBQoFlhKX9lzAo0KjJG9ma8NsoIVSkHWiwj1KRYBn+kpMlMUYY9MpCRst8yWO3QNVv1Jit7gNsCx+0QTerN7pxCrgkUHeK5mkvGkECxUZPsyCFkRKDQqEmynOCb8N9GZEq6wNp39gkUGjVJ6lXfGfR0l7VOf1Ov5J/3a0smyEgyf12g6BBN6s0WMpMezJ8SKD7EMlV60YK9wEVgGrjSZeaA+cKZ28D+T1c9SL1oBC+BX4WT9sFYiCYeIWJYiBgWIoaFiGEhYliIGBYihoWIYSFiWIgYFiKGhYhhIWJYiBgWIoaFiGEhYliIGBYihoWIYSFiWIgYFiKGhYhhIWJYiBgWIoaFiGEhYliIGBYixoLAAzsLpZugxHMBIc9KN0GJxwJCHpVughI3BYTcKN0EJdL6W0sFZSzlXt+qDrwuKORV6eIVuVdQyJ3SxSuyHfhUQMZHYFvp4lWZLyDkbumildmc+VySzh2bShetzjDwJYOMz7kWGGsCl4CffZTxo1osxqyDC9WvuNcyvgKXbaI7RoF3PZTxVmnR/LoyWF1n+r4BEd+AhyVWeWsyu4CnwId1iHgPPAF2lt75JjMAjAMPgBfAIvCmymL13v1qm7StMcYYQxv4DZYx0iwd5zwIAAAAAElFTkSuQmCC">
+
+  </a>
+  <h1>Section Title</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolor ex excepturi fuga natus nobis perferendis quaerat quos sit vero. Accusamus consectetur debitis ipsa iure rem sed sit temporibus vel?</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eligendi esse id quasi quia ratione sed ullam, vero! At cupiditate eligendi est facere, fugit necessitatibus nemo quae rerum saepe sunt?</p>
+  <a href="#three">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAACt0lEQVR4nO2dy2oUURRFlziJioIzJSrGpNs8TMwDdWIUHOpIDaTv5ziVjAWN+R4hOBD8BEfGoQZ8DK4U3gJtFW06XedUnb1gQygaUnevOpUq0l0NQgghhH/OAAnYBfaBA+BryUHZ9gIYAKetd7ZL9IE94BDI/5nqtS+BnvXOt5kTwA7wbYTih1NNx1NgynoxbaMHvB2j+OG8As5bL6otrJVzej7ivANWrBfXhiP/YALl/yzhnPUivTIFvJlg+XVel78vYoidBsqv82T4l0enP+bVzqj5qFPRr+w1WH6dZ0YHm8s73EMDAZ90x/yDZFB+ne2yD6HZNRTw3HrxHtg3FFDdIYfng6GA9+HbB74YCvgsAZiVXyc8WQJsyRIgAaHJmgAJCE3WBEhAaLImQAJCkzUBEhCarAmQgNBkTYAEhCZrAiQgNFkTIAGhyZoACQhN1gRIQGiyJkACQpM1ARIQmqwJkIDQZE2ABLSWaeAesFU+bBcpj8vaqw4a5zhw10EJyUnulE4aQ+Xzm4TNpsq/4OCIS07TyOlo08FCk9PcbkLAIwcLTU7zsAkBEa940ghXRhPngYOFJqe534SA6w4WmpxmuQkBJ3Ua4k/lbzX5KLTp8oRa6yMuOcnA4o74oiRQl38ZIy4FlzCwLD+6hIGH8qNKGAAzOGMmkIQ5nHIlgIQ5nNNlCT1aQhcl9GgZsx2S0KOlzDooL42Z6rnWrWbOQYkpavk1Vx2UmUbMAh2jTRIW6ShtkLBIx5l3UHL6S5YIgkcJSwRj3kHpYcuvWXBQ/jWCs6zyY0pYtV50ZAmr1ov1ykoD5VffVSmMJKypebt3362rfDsJ6yrfTsK6yh+PjTHKv6Hy7SRsqPyjpV+++/FfxW+3+X+43jkF3CqfRBkuvtp2s7xGTJhjwNnylvDp8nO1TQhBm/gOL0oifKKoWFcAAAAASUVORK5CYII=">
+    </a>
+</div>
+<div id="three">
+  <a href="#two">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC+klEQVR4nO2cO2sUURiGnygYtZHgBWzEqIl3jTHxgtiFiEoKETFfl06FVFqJoP4MsbBM4Z9IJViI/gQtFRQLL2WUAxMNS5Rks3vOOzPvAy8su7Mw3/fsmTnMzhwwxjSbrcBQlfTaFJIwBswA0ZGZ6jPLycQocGsVEZ1J24zk2qk2MgBMrkFEZyar75oeM9mFjOWct5TeMrEBGZYiKCM8UvRkRJVzPnx1x9k+yFgpxYjIiBWzL7MGxjLIWM64jfyf0xllWIqgjPBIWZ1TBWVElTM+fOnICEvRkxFtl3JSoPnxj6SZXqtQlhFVTtASjgo0OyylfjKi6SPliEBzo8scp2HUWUY0TcphgWZGj3KMmtMkGVF3KU2UEVXS5KRWHBJoWvQ56XakWnBQoFlhKX9lzAo0KjJG9ma8NsoIVSkHWiwj1KRYBn+kpMlMUYY9MpCRst8yWO3QNVv1Jit7gNsCx+0QTerN7pxCrgkUHeK5mkvGkECxUZPsyCFkRKDQqEmynOCb8N9GZEq6wNp39gkUGjVJ6lXfGfR0l7VOf1Ov5J/3a0smyEgyf12g6BBN6s0WMpMezJ8SKD7EMlV60YK9wEVgGrjSZeaA+cKZ28D+T1c9SL1oBC+BX4WT9sFYiCYeIWJYiBgWIoaFiGEhYliIGBYihoWIYSFiWIgYFiKGhYhhIWJYiBgWIoaFiGEhYliIGBYihoWIYSFiWIgYFiKGhYhhIWJYiBgWIoaFiGEhYliIGBYixoLAAzsLpZugxHMBIc9KN0GJxwJCHpVughI3BYTcKN0EJdL6W0sFZSzlXt+qDrwuKORV6eIVuVdQyJ3SxSuyHfhUQMZHYFvp4lWZLyDkbumildmc+VySzh2bShetzjDwJYOMz7kWGGsCl4CffZTxo1osxqyDC9WvuNcyvgKXbaI7RoF3PZTxVmnR/LoyWF1n+r4BEd+AhyVWeWsyu4CnwId1iHgPPAF2lt75JjMAjAMPgBfAIvCmymL13v1qm7StMcYYQxv4DZYx0iwd5zwIAAAAAElFTkSuQmCC">
+
+  </a>
+  <h1>Section Title</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolor ex excepturi fuga natus nobis perferendis quaerat quos sit vero. Accusamus consectetur debitis ipsa iure rem sed sit temporibus vel?</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eligendi esse id quasi quia ratione sed ullam, vero! At cupiditate eligendi est facere, fugit necessitatibus nemo quae rerum saepe sunt?</p>
+
+</div>
+</body>
+</html>

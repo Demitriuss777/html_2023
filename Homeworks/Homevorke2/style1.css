@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fjalla+One&family=Indie+Flower&family=Rubik+Pixels&family=Sedgwick+Ave+Display&display=swap');
+
+p{
+  font-family: 'Rubik Pixels', sans-serif;
+}
+
+p1{
+  font-family: 'Sedgwick Ave Display', sans-serif;
+
+}
+p2{
+  font-family: 'Dancing Script', sans-serif;
+}
+p3{
+  font-family: 'Fjalla One', sans-serif;
+}
+p4{
+  font-family: 'Indie Flower', sans-serif;
+}
+.cub{
+  width: 200px;
+  height: 200px;
+  background-color:silver;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cubs{
+  display: flex;
+  justify-content: space-around;
+}
+/*
+.text {
+  display: flex;
+  text-align: center;
+  line-height: 200px;
+}
+*/

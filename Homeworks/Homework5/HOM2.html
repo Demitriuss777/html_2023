@@ -1,0 +1,111 @@
+<!--
+Верстка за макетом - https://www.figma.com/file/VdjT7ETEMre3HlgsYX9i2g/Untitled?t=pRosJaprHpsk5c48-1
+( іконки також є тут - https://icons8.com/icons/set/game)
+-->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+
+    }
+    .main{
+      width: 100vw;
+      height: 100vh;
+      background-color: #FFF;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+    }
+    h1{
+      color: #000;
+      margin-bottom: 0;
+
+      font-family: Inter;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    p{
+      color: #000;
+      margin-top: 0;
+      text-align: center;
+
+      font-family: Inter;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+
+    }
+    .one, .two, .three {
+      width: 321px;
+      height: 491px;
+      border: 4px solid #554C4C;
+      background: rgba(217, 217, 217, 0.30);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+
+
+    }
+    .game {
+      position: absolute;
+      top: -50px;
+      border: 4px solid #554C4C;
+      width: 100px;
+      height: 100px;
+      flex-shrink: 0;
+      border-radius: 50%;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+  </style>
+</head>
+<body>
+<div class="main">
+  <div class="one">
+<h1>Loren</h1>
+    <div class="game">
+      <a ><img
+      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC/klEQVR4nO2au2tUQRTGf4Qg+GC1MZAUbmUiKFZqsa74QEIQ1EbTCWLYVsVCEa00IGn9BwQbDYh2giaEiInxsRprtbLSwkRdEbfJyIRzYbjOzJ07u9GN3A9Ocx7fzLnnzOPeXSjQuZgF1CqTGVsiapXKH3AaOhSqSKTDoIqKBGA9UAb2AEeAU4btNvAQqAMfgZ/AMzqwIo8zdpXgXedfJ5I10SIRB4qKdBpUsf1moFjskVDF9puBR//LORJzRZkmHqrYtToMqpWKzOZ5dw5ELKdqJZFc786BiOVUrSRSAwZkUW8EdojuSXwey7E14SoJ9zbR+VAs9h5gFJgHfoi8Aa7Dsg2p0ouATzjPxTeUt20VOQl890xM206I7ybgvcf3nZFEHt7ciSQyZAy2FPCUl4xBDztitO5QC7xDIRvCjGGcE12P44mVRNL6b8BmiZ222KcyeCtANYN3ztA/JRCjjqe0QcRmuyaxNYttJIO3CuzL4I3CWwdpXcRm0wsV2U7Ttu0ZvMojCW8UzPKXpApmAnXRmW2mY5AFbWvJNK+rnSopfcIbha8RiXyR2HWWya0V20JAO1VTej2XaLyOaK2XEjtgsW0V26uI1qq3ksjViMV+WWLPWGynxXbFEVtxtJmSmGiMOEhd2++CcRpPWeyTYtM+iwHtpCw7XhRu5Si9PriOStwBj99+8TkeeCAqET2XaPiuGqYsGkkgr7s3gKbh0xSdtiU45qiMsoieSxR6czytQQeHvo78Ejno8BnMMU5vTCLDgeTj4l+WNaBvrxPAFtGPSSV8PuOBYw3HJHIzgFjfgfrEfzJl07+XaOyUU97n0ydcKkP0nHJjPoD4rOHfSNmSk3iNiM9H41zAeHpOuWGevjbRt+Uuw3/C8bQJ9NFcWX9aSG4NufDZQ6g/rvWn/MsysYZ8dUz6P49Pv3C7xv0Uk8gDD+F5Vg4XPOPeiyHcmzoHErmTaql2owu4axm3KVeYKOwG7ksrfAAuAt2sPLqBSzJmQ+aw6y+MW4B24TcermmIhb22KwAAAABJRU5ErkJggg==">
+      </a>
+      </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+  </div>
+  <div class="two">
+    <div class="game">
+      <a ><img
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAHMUlEQVR4nO2ZbVBU1xnHN03a6WTqpJ32SyYf2mnTZtKP+dZ+sdO0aTttM3Y62sQYRkwMa5E3UWBhXRYWgS7ILqAtIIWBRl5iQBIxAUNBZDl3eVFAURREBDkXlj13X3iTF+2/cy7ZTYTdZZeImpn9z/xn7z3sPZzffc7znHNAoQgqqKCCCsqHuoFvtoyMfFvxdVS7dfxVQRKLCaPDAqPLgiSCMHGRSGK3wKieWMZeVDzJMjPx50SiLXzgvkwYvU+YWNRtsz2neNLUbqXbBInOeBp4h20CZkmUza+7bJOyL9ktt6/N2l8B8LTiSZCZ0dcIo0veInBtWsJlpxUDMxJuzTkg3p2FZWEOzuVF3JmfdlqW5n/5uBkUhI29QBh1+JpK/O1zkBszNtyec2J8fkaGGZ+fQbd9Ev1O1msHvvuYQcSq9XKixzGFwRnbAx6YljgA+j7/2RUni358EJaxFwmj/1sPxB8TRocBPLXpg+6emnqeMBotMFpAmFgoMBrFS6xrIPU9Av5ZUoCC8mIQ6x1UNp6R711uGR1CHWmVr4sryz3CmKTxX2wegM32HJHEXIGJC77eqOGYAb3dJhzTH8H5sSFkpadgoP+i7NqKUpy60ISsrHT5PjtV4zkqEtVtZiL3+zM1OMiNgV7UVJQiXatGTloyRm9fl93W3ABtfCy0h2Lke2Omzls/tZuytZBXYj/nuAvENXhf9grCRIkwGvFQF8p260R4IMn6UEAktynf5jwUECJRIRCQ4qpyNH58al2Im4OXkRgehopzZ3il8t4nExfM1olfbxigwzn+fcEm7gq0rPJKpTkQiVxdslfnaBKRfjAaDbUV6Go7B316Coh13Fe/4yardUtAAAC+QSSaSiQ6yzsZmrEHvBb8u6IMybHR0B7Yj9TYCGgilUiOVEITGSZfx+z6G8rysjElDuL+PTsuX2xFed0pn32aJfFgQCBEoqX8wVuzDozOTWNsftrjW8/Jy8bB9/ZAHbXPoyN2bodgakBXR9MaG1NUMsCXHRGyE3lGPYory7zA0E5/I/Er5/JSMR+8yzwaN2ft8haC31+0W+ROjceNqCkvBB25ghPZOhzXHUbViXzZWQkxyE9RITbkTXSaP/MIYtCqcG/ZhqVFhkukCXMzExi61iUDmf57BqW11TBNjq2GufuBv7vj4VlHS5/DiqtO5o7Il+0C4ZEQx/qRvG83dFGhKDVmuN9s3O4dctv+Hds8QnDn6ZKweHfK/UzH+U/htN+Rrzngx9VlKMrV40R58QMw3ZQ+6xeIwOhN10Mc5NLnA1/tuLB3UGJIR2pU6AqIYS1IxBt/8QpyPEODWSd1PzN6sxcDfQStn9bixhWzu73xo2rUtDevTGcmLvodEcLEMX+SmYMUZKSgIFMrW73vHajDdsuODXlDbovb87ZXkMKjaWCW4TV5cv+eHXbrCK72mOTraccdHCvIXwGRqNkvCBlEEhv9BaksynX/8qKsVDkK3PqEaLktW33IK8j7RbkYvNrpEeQ+n15LkvxpvtCAynP1LpC4QECU/oDEK99dFyTLB0hddQnqq0rlfBjs78D1K8IDvtbbjtOVpTAa9V9USok2twDP+L2vEhi97E9EjJp4JIS+KTs1UolPTpXL3vv67+S2RGWoV5CWz04jM1MnL4IVTWdxsrF+jRuu9qwt+5Ko9DsqJoflJ+vtdKNDdiItJhyqvW9DHfYWSnLSH0h23mbQJngF4c5I87yFF3ztGgLJE64Wi+U7gk3cRxg9SyTaRZhodXVW09aE6uJj8qAXF6xyNOL2vIUjsRHI16mh/OsfEb79z6ivKfcJkp6s2gCIOKf4KhJsNKFhoA8Ggx6Robvcycg9MtiDk/8y4O7cJMwtZxEfugt61QGvi6HLxfl6nDa3BQbC6NKGj8Fbt259Rp+VaUxXx2Nh3iLXfG/Vhjs5fC/Uf38XdR+U+PSH7xch6VA0WseHA4G5vtFgPBW1c/v5btO5e7y++wLg5tsNvkonhu1BZnws9AlxyFLF4WhSgvyZnZSAbLXK7by0FKQmxQcSEdWGKH7z8ss/rfvPCdt6AKs90NeOw+FhMGiTZB/VqJCTnAijTrPG+Zk6HD4YjVZ6az2Ifp67GwJ5/aWXtuRqE4cCBfmoogTmtia/ToncVaWFvvOFiZfabeIPFV9Fym1/+JN2/97WI7ERvYY0zWyePg3czecb0N7ZipNlhZict6KivAgZcTHISDiA1LgY5Bv+4Zdzj2Yix6B3nxIJo9mE0f0rf26ix4k0saMf/d9SPEx1OiZ/TCTqDLRsrgxQvCBI1LLOd6r4wU7xKESm6CtEopMBls16/k8ewT7xI8LoJx6mjo3vpR4ZxKrINPuzgPEj6uoBdkyN/4wwMcQsie8JjP7W73PGZolI4u8FJp4UGJ364u3SZb6VEJio7p6mP1B83WSyWre0OUa/98inR1BBBRVUUIrHoP8D/h/SrlLxJa8AAAAASUVORK5CYII=">
+      </a>
+    </div>
+    <h1>Loren</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+  </div>
+
+  <div class="three">
+    <div class="game">
+      <a ><img
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACuUlEQVR4nO2Zu2sVQRTGf4mmsrixMc1eH40gBhFSaUjjC60sRWwUgpAqKihoJb4LEQtbbWztfRUiFkmh/gPBB4JG8RJICoOB3CsHzsKw7O7M7s4+IvvBNHvnfN/5dl5n50KLFi1a/G84BswC+4DhCnWHVXNWcyiEIWAJGGjrAc+AgPIQqEbP0F3SXArhtUEYti/ATsoxsRCj98oH+bUY4jLMJJmQdtWHwMEEcp9m0kwMgAMeNBgB5lNEFgquGZuJec3BCzrAXAkjYzPxHtjqy0RZZmox4dtMrSZ8mWmEiaJmGmUir5lGmjDNuG7NDyxbrHDVCteRkVrpetNGosg0Owf8baKJPNPsEPC8CdOp6gqgFuwF1kuszSqBbYvdECMTOJpotJkgo4lGmgkcvifK/J7JhPPAC+BpDhOdjFtzCNF6qdrecNMQncpoIkQWM1PG8xs+jRw3iOe03Jg0TmjX2inNjHBNKrd5Fom2N2wCvhrkl/T52Ry1U9KhGU6hy8azb6rtFVcMgTXgiD6/CPQtI5E2MhJ7QZ8fVe5QR0x5x0zkDa4Y6+UM8C5j7dTRGIlFuVYiGqLpFVuAxZjp8Ac4pX3yXGmGMaeB1Rj+H6rtDfcsB9tjYFsOXol5YuG+68vEYUsRGLZl4D4w6sA5qn2XHXjXtewvhP2RW3GzyVR4Yyz0sI078I5HYvrKtZqg1dNcMkEujB8B08DvGNK+Toeu9t8DPAQ+6+8utdMu7ftJY4VD0FXu6MsZaC7Tmpv1UvuWZZh/Wg6oEcc/g6TP5pTfTwC/LLlIrol4mxIob2871WGHaiblI7km4k5C0HdjKlWJrm7BcTndTgvcHTlZw7bo46+vHBjS6RzNZ01zdS5FzAU+RvUYS1j4kqMTTgIfDRPeS4UMmDHMfNDcMkO+DyaoHxMb4ealRQsajH/O3CWB5V+62AAAAABJRU5ErkJggg==">
+       </a>
+    </div>
+    <h1>Loren</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+  </div>
+</div>
+
+</body>
+</html>
